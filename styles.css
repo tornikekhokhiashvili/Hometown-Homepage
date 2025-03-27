@@ -9,6 +9,10 @@ DARK BLUE: #1D3557
 */
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin: 0;
   text-align: center;
 }
@@ -25,4 +29,46 @@ img {
   height: 343px;
   background-image: url(images/torshov.jpg);
   background-size: cover;
+  border-radius: 10px;
+}
+.hero-visit-span {
+  display: inline;
+  border-radius: 10px;
+  width: 225px;
+  height: 42px;
+  top: 119px;
+  left: 247px;
+  background-color: #1d3557;
+  padding: 10px 5px 5px 5px;
+}
+.hero-visit {
+  margin: auto;
+  width: 201px;
+  height: 34px;
+  top: 122px;
+  left: 259px;
+  font-family: Arial;
+  font-weight: 700;
+  size: 32px;
+  color: #ffffff;
+}
+.hero-enjoy-span {
+  display: block;
+  border-radius: 10px;
+  width: 440px;
+  height: 52px;
+  top: 172px;
+  left: 254px;
+  background-color: #457b9d;
+  margin-top: 10px;
+  padding: 10px;
+}
+.hero-enjoy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 412px;
+  margin: auto;
+  color: #ffffff;
 }
